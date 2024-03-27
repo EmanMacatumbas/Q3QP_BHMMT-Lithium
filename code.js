@@ -22,6 +22,9 @@ function setGame(){
     playerHP=100;
     opponentHP=100;
 
+    redcatimg.src='images/redcat.png';
+    bluecatimg.src='images/bluecat.png';
+
     document.getElementById("choice").innerHTML="";
     document.getElementById("coin").innerHTML="";
     document.getElementById("displaychoice").innerHTML="";
